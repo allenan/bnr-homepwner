@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49101ECD17FB4D9B005C8CBA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49101ECB17FB4D9B005C8CBA /* DetailViewController.m */; };
+		49101ECE17FB4D9B005C8CBA /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49101ECC17FB4D9B005C8CBA /* DetailViewController.xib */; };
 		49F1316817FA1FC30002AEC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F1316717FA1FC30002AEC6 /* UIKit.framework */; };
 		49F1316A17FA1FC30002AEC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F1316917FA1FC30002AEC6 /* Foundation.framework */; };
 		49F1316C17FA1FC30002AEC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F1316B17FA1FC30002AEC6 /* CoreGraphics.framework */; };
@@ -19,10 +21,12 @@
 		49F1318917FA20C90002AEC6 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1318817FA20C90002AEC6 /* ItemsViewController.m */; };
 		49F1318C17FA21EF0002AEC6 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1318B17FA21EF0002AEC6 /* BNRItem.m */; };
 		49F1318F17FA22EA0002AEC6 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F1318E17FA22EA0002AEC6 /* BNRItemStore.m */; };
-		49F1319517FB2EB30002AEC6 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F1319417FB2EB30002AEC6 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49101ECA17FB4D9B005C8CBA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		49101ECB17FB4D9B005C8CBA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		49101ECC17FB4D9B005C8CBA /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		49F1316417FA1FC30002AEC6 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F1316717FA1FC30002AEC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49F1316917FA1FC30002AEC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,7 +46,6 @@
 		49F1318B17FA21EF0002AEC6 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		49F1318D17FA22EA0002AEC6 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
 		49F1318E17FA22EA0002AEC6 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
-		49F1319417FB2EB30002AEC6 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				49F1318717FA20C90002AEC6 /* ItemsViewController.h */,
-				49F1319417FB2EB30002AEC6 /* HeaderView.xib */,
 				49F1318817FA20C90002AEC6 /* ItemsViewController.m */,
+				49101ECA17FB4D9B005C8CBA /* DetailViewController.h */,
+				49101ECB17FB4D9B005C8CBA /* DetailViewController.m */,
+				49101ECC17FB4D9B005C8CBA /* DetailViewController.xib */,
 				49F1316D17FA1FC30002AEC6 /* Homepwner */,
 				49F1316617FA1FC30002AEC6 /* Frameworks */,
 				49F1316517FA1FC30002AEC6 /* Products */,
@@ -173,7 +178,7 @@
 				49F1317A17FA1FC30002AEC6 /* Default.png in Resources */,
 				49F1317C17FA1FC30002AEC6 /* Default@2x.png in Resources */,
 				49F1317E17FA1FC30002AEC6 /* Default-568h@2x.png in Resources */,
-				49F1319517FB2EB30002AEC6 /* HeaderView.xib in Resources */,
+				49101ECE17FB4D9B005C8CBA /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +194,7 @@
 				49F1318917FA20C90002AEC6 /* ItemsViewController.m in Sources */,
 				49F1318C17FA21EF0002AEC6 /* BNRItem.m in Sources */,
 				49F1318F17FA22EA0002AEC6 /* BNRItemStore.m in Sources */,
+				49101ECD17FB4D9B005C8CBA /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
